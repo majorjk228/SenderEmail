@@ -36,7 +36,6 @@ namespace SenderEmail
 
                 string[] test = File.ReadAllLines("text.txt"); //беру из файла все строки с емаийлами
                 label1.Text = File.ReadAllText("text.txt");
-                MessageBox.Show("da");
 
                 // add from,to mailaddresses
 
